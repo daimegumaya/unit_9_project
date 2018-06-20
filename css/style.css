@@ -1,0 +1,141 @@
+/* --- Header --- */
+
+header {
+	text-align: center;
+	height: 150px;
+	min-height: 100px;
+	padding: 20px 0px 0px 0px;
+	margin: 0;
+	background-color: #f7f7f7;
+}
+
+/* --- drop image --- */
+
+div.dropImage {
+	height: 400px;
+	margin: 0;
+	padding: 0;
+	background: url("../images/cafe-image7.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+}
+
+/* --- section reservation ---*/
+
+section.reservation {
+	margin: 0;
+	padding: 20px;
+	background-color: #d8d8d8;
+}
+
+.reservation-grid-container {
+    display: grid;
+    grid-template-areas: 'left-col right-col';
+    grid-gap: 20px;
+    padding: 20px 30px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+}
+
+/* --- section review ---*/
+
+section.customerReview {
+	margin: 0;
+	padding: 20px;
+	background-color: #f7f7f7;
+}
+
+.review-grid-container {
+    display: grid;
+    grid-template-areas: 'img-col comment-col';
+    grid-gap: 10px;
+    padding-left: 100px;
+    align-items: center;
+}
+
+div.img-col {
+	height: 200px;
+	margin: 0;
+	padding: 0px;
+	background: url("../images/customer3.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 80%;
+}
+
+div.comment-col {
+	border-radius: 5px;
+	padding: 20px 30px;
+	width: 70%;
+    background-color: #ffffff;
+}
+
+h1 {
+	font-family: 'Montserrat', sans-serif;
+	color: #00C7C2;
+	text-decoration: overline underline;
+    -webkit-text-decoration-color: #443f38; /* Safari */    
+    text-decoration-color: #443f38;
+}
+
+h2 {
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	color: #443f38;
+}
+
+h3 {
+	font-family: 'Montserrat', sans-serif;
+	color: #443f38;
+	font-weight: 900;
+}
+
+p {
+	font-family: 'Montserrat', sans-serif;
+	color: #70685C;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+}
+
+tr, th, td {
+    padding: 16px;
+    text-align: left;
+    border-bottom: 1px solid #70685C;
+    width: auto;
+    font-family: 'Montserrat', sans-serif;
+}
+
+input[type=text], select {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 12px 0;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button[type=submit] {
+    width: 20%;
+    background-color: #00C7C2;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button[type=submit]:hover {
+    background-color: #00AD9C;
+}
+
+/* -- div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
